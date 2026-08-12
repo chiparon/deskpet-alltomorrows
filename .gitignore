@@ -1,0 +1,14 @@
+# Local source material and generation work are intentionally excluded.
+source-images/
+codex-gen/
+MinuteMan/
+generate-minuteman.js
+
+# Local release artifacts
+dist/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
