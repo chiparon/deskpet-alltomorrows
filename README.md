@@ -1,22 +1,22 @@
-# Suit Pet for Codex Desktop
+# MinuteMan for Codex Desktop
 
-一款西装造型的 Codex Desktop 自定义像素宠物，包含待机、转身、握手、跳跃、复盘、看手机、伏案休息和视线跟随等动画。
+**MinuteMan** 是一款西装造型的 Codex Desktop 自定义像素宠物，包含待机、转身、握手、跳跃、复盘、看手机、伏案休息和视线跟随等动画。
 
-![Suit Pet 动画预览](assets/preview-contact.png)
+![MinuteMan 动画预览](assets/preview-contact.png)
 
 ## 安装
 
-1. 从 [Releases](https://github.com/chiparon/deskpet-alltomorrows/releases/latest) 下载 `suit-pet-v1.0.0.zip`。
-2. 解压后，把完整的 `suit-pet` 文件夹放到：
-   - Windows：`%USERPROFILE%\.codex\pets\suit-pet`
-   - macOS / Linux：`~/.codex/pets/suit-pet`
-3. 重启 Codex Desktop，在宠物选择器中选择 **Suit Pet**。
+1. 从 [Releases](https://github.com/chiparon/deskpet-alltomorrows/releases/latest) 下载 `MinuteMan-v1.0.1.zip`。
+2. 解压后，把完整的 `MinuteMan` 文件夹放到：
+   - Windows：`%USERPROFILE%\.codex\pets\MinuteMan`
+   - macOS / Linux：`~/.codex/pets/MinuteMan`
+3. 重启 Codex Desktop，在宠物选择器中选择 **MinuteMan**。
 
 如果需要手动选择，可在 `~/.codex/config.toml` 中设置：
 
 ```toml
 [desktop]
-selected-avatar-id = "custom:suit-pet"
+selected-avatar-id = "custom:MinuteMan"
 ```
 
 > 自定义宠物属于 Codex Desktop 的非公开接口；未来版本可能调整安装路径或配置格式。
@@ -24,7 +24,7 @@ selected-avatar-id = "custom:suit-pet"
 ## 包结构
 
 ```text
-suit-pet/
+MinuteMan/
 ├── pet.json
 └── spritesheet.png
 ```
@@ -51,7 +51,6 @@ suit-pet/
 
 ## English
 
-Suit Pet is an installable custom pixel-art pet for Codex Desktop. Download the latest release, extract the `suit-pet` directory into `~/.codex/pets/`, restart the app, and choose **Suit Pet** from the pet picker.
+MinuteMan is an installable custom pixel-art pet for Codex Desktop. Download the latest release, extract the `MinuteMan` directory into `~/.codex/pets/`, restart the app, and choose **MinuteMan** from the pet picker.
 
 This is an unofficial community-made pet and is not affiliated with or endorsed by OpenAI.
-
